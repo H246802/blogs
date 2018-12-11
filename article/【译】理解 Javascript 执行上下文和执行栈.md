@@ -174,7 +174,7 @@ FunctionExecutionContext = {
 }
 ```
 
-### 3.1.3 对象环境(variable environment)
+#### 3.1.3 对象环境(variable environment)
 
 它也是一个词法环境，其`EnvironmentRecord`包含了由 `VariableStatements（变量声明）`在此执行上下文创建的绑定。
 
@@ -252,7 +252,7 @@ GlobalExecutionContext = {
 
 这就是我们所谓的变量提升。
 
-## 4.执行阶段
+## 4.执行上下文执行阶段
 
 这是整篇文章中最简单的部分。在此阶段，完成对所有变量的分配，最后执行代码。
 
