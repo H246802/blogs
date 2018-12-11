@@ -57,7 +57,7 @@ first();
 console.log('Inside Global Execution Context');
 ```
 ![image](https://user-images.githubusercontent.com/22425699/49794269-2691f980-fd72-11e8-874b-d5d7cbc0cb17.png)
-<center>上述代码的执行上下文堆栈。</center>
+ <p style='text-align:center;color:#666;'>上述代码的执行上下文堆栈。</p>
 
 ### 3.1 执行上下文创建阶段
 
