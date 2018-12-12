@@ -223,7 +223,7 @@ GlobalExecutionContext = {
 }
 
 // 函数执行上下文
-GlobalExecutionContext = {
+FunctionExecutionContext = {
     ThisBinding:<Global Object>,  // 根据调用确定
     LexicalEnvironment:{
         EnvironmentRecord:{
