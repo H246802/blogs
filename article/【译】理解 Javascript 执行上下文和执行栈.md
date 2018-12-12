@@ -265,4 +265,4 @@ FunctionExecutionContext = {
 
 **译者注：**
 - 文中对于this的值的判断不够具体，读者可参考[this指向](https://zhuanlan.zhihu.com/p/31823164)。
-- 变量提升可以更详细一点，读者可参考[变量提升详解]()
+- 变量提升可以更详细一点，读者可参考[变量提升详解](https://zhuanlan.zhihu.com/p/28140450)
