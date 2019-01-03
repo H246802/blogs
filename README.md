@@ -2,4 +2,4 @@
 ## 译文
 [【译】理解 Javascript 执行上下文和执行栈](https://github.com/H246802/blogs/issues/1)
 
-[【译】理解异步 JavaScript-了解 JavaScript 工作原理(Event Loop)](https://github.com/H246802/blogs/issues/4)
+[【译】理解异步 JavaScript-了解 JavaScript 工作原理-事件循环(Event Loop)](https://github.com/H246802/blogs/issues/4)
