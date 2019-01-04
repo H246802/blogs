@@ -149,7 +149,7 @@ networkRequest();
 console.log('The End');
  ```
 
-![image](https://cdn-images-1.medium.com/max/992/1*sOz5cj-_Jjv23njWg_-uGA.gif))
+![image](https://cdn-images-1.medium.com/max/992/1*sOz5cj-_Jjv23njWg_-uGA.gif)
  <p align="center">Event Loop（事件循环）</p>
 
  当上面的代码在浏览器中运行时，`console.log('Hello World')` 被推送到栈，在执行完成后从栈中弹出。紧接着，遇到 `networkRequest() `的执行，因此将其推送到栈顶部。
