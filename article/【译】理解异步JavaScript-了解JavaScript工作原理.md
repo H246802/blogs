@@ -2,6 +2,7 @@
 
 > - 原文地址：[Understanding Execution Context and Execution Stack in Javascript](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
 > - 原文作者：[Sukhjinder Arora](https://sukhjinderarora.com/)
+> - 译文作者：[H246802](https://github.com/H246802)
 > - 译文地址：[理解异步 JavaScript -了解 JavaScript 工作原理](https://github.com/h246802/blogs/issues/4)
 
 JavaScript 是一种单线程编程语言，这意味着同一时间只能完成一件事情。也就是说，JavaScript 引擎只能在单一线程中处理一次语句。
