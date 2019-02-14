@@ -190,7 +190,7 @@ document.querySelector('.btn').addEventListener('click',(event) => {
 
 #### ES6 工作队列/微任务队列（Job Queue/ Micro-Task queue）
 
-ES6 引入了 Promises 在 JavaScript 中使用的工作队列/微任务队列的概念。消息队列和微任务队列之间的区别在于工作队列的优先级高于消息队列，这意味着 工作队列/微任务队列中的 promise 工作将在消息队列内的回调之前执行。
+ES6 引入了 Promises 在 JavaScript 中使用的工作队列/微任务队列的概念。消息队列和微任务队列之间的区别在于微任务队列的优先级高于消息队列，这意味着 工作队列/微任务队列中的 promise 工作将在消息队列内的回调之前执行。
 
 例如：
 
@@ -249,7 +249,7 @@ setTimeout 1
 setTimeout 2
 ```
 
-我们可以看到两个 promise 都在 `setTimeout` 中的回调之前执行，因为事件循环将微任务队列中的任务优先于消息队列/任务队列中的任务。
+我们可以看到两个 promise 都在 `setTimeout` 中的回调之前执行，因为事件循环将微任务队列中的任务优先于消息队列中的任务。
 
 当事件循环正在执行微任务队列中的任务时，如果另一个 promise 执行 resolve 方法，那么它将被添加到同一个微任务队列的末尾，并且它将在消息队列的所有回调之前执行，无论消息队列回调等待执行花费了多少时间。
 
