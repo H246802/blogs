@@ -9,3 +9,5 @@
 [部分柯里化函数题](https://github.com/H246802/blogs/issues/2)
 
 [大数相加、相减、相乘的实现](https://github.com/H246802/blogs/issues/5)
+
+[变量提升与时间死区](https://github.com/H246802/blogs/issues/6)
